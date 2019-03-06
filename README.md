@@ -1,3 +1,10 @@
+# This Fork
+
+- The dependency on indicators is removed (Thanks, David Pickett)
+
+- Removed .sum method on arrays which was overriding the modern ruby method.
+
+
 # Indicators
 
 A gem for calculating technical analysis indicators.
