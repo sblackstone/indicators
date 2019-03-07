@@ -1,6 +1,8 @@
-# This Fork
+# This Fork Fixes A Few Issue!
 
-- The dependency on indicators is removed (Thanks, David Pickett)
+Based on the original indicators gem:
+
+- The dependency on the market data gem is removed (Thanks, David Pickett)
 
 - Removed .sum method on arrays which was overriding the modern ruby method.
 
@@ -18,15 +20,11 @@ Securities gem: https://rubygems.org/gems/securities
 
 Add this line to your application's Gemfile:
 
-    gem 'indicators'
+    gem 'indicators', github: 'sblackstone/indicators'
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install indicators
+    $ bundle install
 
 ## Accepted Input
 
