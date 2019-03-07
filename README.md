@@ -4,8 +4,9 @@ Based on the original indicators gem:
 
 - The dependency on the market data gem is removed (Thanks, David Pickett)
 
-- Removed Array.sum money patching - modern ruby has an Array.sum and the old version will break applications including ActiveRecord.
+- Removed Array.sum monkey patch - modern ruby has an Array.sum and the old version will break applications including ActiveRecord.
 
+- Requires Ruby 2.4+ 
 
 # Indicators
 
