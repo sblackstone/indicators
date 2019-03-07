@@ -4,7 +4,7 @@ Based on the original indicators gem:
 
 - The dependency on the market data gem is removed (Thanks, David Pickett)
 
-- Removed .sum method on arrays which was overriding the modern ruby method.
+- Removed Array.sum money patching - modern ruby has an Array.sum and the old version will break applications including ActiveRecord.
 
 
 # Indicators
